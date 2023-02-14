@@ -1,0 +1,148 @@
+/*GENERAL SETTINGS*/
+.page_container {
+    width: 90%;
+    margin: 5% auto;
+}
+
+.common {
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+/*LOGO SECTION*/
+.logo {
+    width: 90px;
+    height: 90px;
+    background-image: url("./Assets/jpg.jpg");
+    background-position: center;
+    background-size: 250%;
+}
+
+.heading {
+    margin-left: 10%;
+    height: 40px;
+    width: 250px;
+    background-color: grey;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.container p {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+/*INPUT-DISPLAY SECTION*/
+.section_container {
+    margin: 5% 0;
+    width: 90%;
+}
+
+.main_container {
+    width: 100%;
+    height: 100%;
+}
+
+.data_container {
+    width: 40%;
+    height: 100%;
+    display: flex;
+}
+
+.input {
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    background-color: lightgrey;
+}
+
+.input_container p {
+    text-align: center;
+}
+
+.input_val input {
+    width: 100px;
+    min-width: 100px;
+    margin-right: 5%;
+}
+
+.currencySelect {
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    background-color: lightgrey;
+}
+
+.curOption {
+    font-size: 16px;
+}
+
+.currency {
+    width: 100px;
+    margin-left: 10%;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.btn {
+    width: 100px;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.to {
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.to p {
+    font-weight: bolder;
+    font-size: 24px;
+    padding-left: 15%;
+}
+
+.output {
+    margin-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.outputCncy {
+    width: 180px;
+    font-weight: 600;
+}
+
+.result {
+    padding-right: 8px;
+}
+
+.line {
+    width: 90%;
+    margin: 0 auto;
+    height: 3px;
+    background-color: grey;
+}
+
+/*COMPONENT */
+.componentPositioning {
+    display: flex;
+    width: 90%;
+    max-width: 400px;
+    margin: 2% 0;
+    margin-left: 5%;
+}
