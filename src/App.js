@@ -24,16 +24,18 @@ function App() {
             setResultValue(result);
         }
     };
+    const handleInputValue = (e) => {
+        setInputValue(e.target.value);
+    };
+
+    const handleCurrencySelect = (e) => {
+        setSelectedCurrency(e.target.value);
+    };
     return (
         <div>
             <Logo />
             <div className="componentPositioning">
-                <InputData
-                    inputValue={inputValue}
-                    setInputValue={setInputValue}
-                    setSelectedCurrency={setSelectedCurrency}
-                    selectedCurrency={selectedCurrency}
-                />
+                <InputData handleInputValue={handleInputValue} handleCurrencySelect={handleCurrencySelect} />
                 <DisplayCalculation calculate={calculate} calResult={resultValue} />
             </div>
             <div className="line"></div>
