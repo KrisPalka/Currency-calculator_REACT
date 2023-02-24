@@ -1,4 +1,4 @@
-const InputData = ({handleInputValue, handleCurrencySelect}) => {
+const InputData = ({onInputValueChange, onCurrencySelect}) => {
     return (
         <div className="section_container">
             <div className="main_container">
@@ -6,7 +6,7 @@ const InputData = ({handleInputValue, handleCurrencySelect}) => {
                     <div className="common input_val">
                         <input
                             id="amount_input"
-                            onChange={handleInputValue}
+                            onChange={onInputValueChange}
                             type="number"
                             className="input"
                             min="0"
@@ -14,7 +14,7 @@ const InputData = ({handleInputValue, handleCurrencySelect}) => {
                         />
                     </div>
                     <div className="common currency">
-                        <select className="currencySelect" onChange={handleCurrencySelect}>
+                        <select className="currencySelect" onChange={onCurrencySelect}>
                             <option className="curOption" value="EUR">
                                 EUR
                             </option>

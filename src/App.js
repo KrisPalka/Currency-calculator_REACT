@@ -35,7 +35,7 @@ function App() {
         <div>
             <Logo />
             <div className="componentPositioning">
-                <InputData handleInputValue={handleInputValue} handleCurrencySelect={handleCurrencySelect} />
+                <InputData onInputValueChange={handleInputValue} onCurrencySelect={handleCurrencySelect} />
                 <DisplayCalculation calculate={calculate} calResult={resultValue} />
             </div>
             <div className="line"></div>
